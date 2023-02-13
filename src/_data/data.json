@@ -1,0 +1,225 @@
+{
+  "linklists": {
+    "main": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "Link 1",
+        "url": "/link1.html"
+      },
+      {
+        "title": "Link 2",
+        "url": "/link2.html"
+      }
+    ]
+  },
+  "news": {
+    "main": [
+      {
+        "newCaterogy": "Category 2",
+        "newName": "Title title title title title title title title",
+        "newDes": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text... ",
+        "newBtnName": "Link1",
+        "color": "u-green"
+      },
+      {
+        "newCaterogy": "Category 1",
+        "newName": "Title title title title",
+        "newDes": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text",
+        "newBtnName": "Link2",
+        "color": "u-yellow"
+      },
+      {
+        "newCaterogy": "Category 3",
+        "newName": "Title title title title title title",
+        "newDes": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text",
+        "newBtnName": "Link3",
+        "color": "u-pink"
+      },
+      {
+        "newCaterogy": "Category 2",
+        "newName": "Title title title title title",
+        "newDes": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text",
+        "newBtnName": "Link4",
+        "color": "u-green"
+      }
+    ]
+  },
+  "features": {
+    "main": [
+      {
+        "featureName": "Text text",
+        "featureDes": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "u-green"
+      },
+      {
+        "color": "u-green",
+        "featureName": "Text text",
+        "featureDes": "Title title title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-pink",
+        "featureName": "Text",
+        "featureDes": "Title title title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-green",
+        "featureName": "Text text",
+        "featureDes": "Title title title title title title title title title title title title title title title title title title "
+      },
+      {
+        "color": "u-yellow",
+        "featureName": "Text text text",
+        "featureDes": "Title title title title title title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-green",
+        "featureName": "Text text",
+        "featureDes": "Title title title title title title title title title title title title title title title"
+      }
+    ]
+  },
+  "blog": {
+    "main": [
+      {
+        "color": "u-green",
+        "blogName": "Text text",
+        "blogDes": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-pink",
+        "blogName": "Text",
+        "blogDes": "Title title title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-green",
+        "blogName": "Text text",
+        "blogDes": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-pink",
+        "blogName": "Text",
+        "blogDes": "Title title title title title title title title title title title title title title title title title title title title title title"
+      }
+    ]
+  },
+  "anchors": {
+    "main": [
+      {
+        "anchorName": "Anchor link 1",
+        "anchorLink": "#anchor-link1"
+      },
+      {
+        "anchorName": "Anchor link 2",
+        "anchorLink": "#anchor-link2"
+      },
+      {
+        "anchorName": "Anchor link 3",
+        "anchorLink": "#anchor-link3"
+      }
+    ]
+  },
+  "titleAnchorLink2": {
+    "main": [
+      {
+        "color": "u-yellow",
+        "anchorName": "Text text text",
+        "anchorDes": "Title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-pink",
+        "anchorName": "Text",
+        "anchorDes": "Title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-green",
+        "anchorName": "Text text",
+        "anchorDes": "Title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-pink",
+        "anchorName": "Text",
+        "anchorDes": "Title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-green",
+        "anchorName": "Text text",
+        "anchorDes": "Title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-pink",
+        "anchorName": "Text",
+        "anchorDes": "Title title title title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-green",
+        "anchorName": "Text text",
+        "anchorDes": "Title title title title title title title title title title title title title title title title title"
+      },
+      {
+        "color": "u-pink",
+        "anchorName": "Text",
+        "anchorDes": "Title title title title title title title title title title title title title title title title title title title title"
+      }
+    ]
+  },
+  "footer1": {
+    "main": [
+      {
+        "footer1Link": "Link link"
+      },
+      {
+        "footer1Link": "Link &nbsp;link link"
+      },
+      {
+        "footer1Link": "Link &nbsp;link link link link"
+      },
+      {
+        "footer1Link": "Link link link"
+      },
+      {
+        "footer1Link": "Link link link link"
+      }
+    ]
+  },
+  "footer2": {
+    "main": [
+      {
+        "footer2Link": "Link link link link link link"
+      },
+      {
+        "footer2Link": "Link &nbsp;link link link link link link link"
+      },
+      {
+        "footer2Link": "Link &nbsp;link link link link"
+      },
+      {
+        "footer2Link": "Link link link link link link link"
+      },
+      {
+        "footer2Link": "Link link link link link link link link link"
+      }
+    ]
+  },
+  "footer3": {
+    "main": [
+      {
+        "footer3Link": "Link link link link link link link link"
+      },
+      {
+        "footer3Link": "Link &nbsp;link link"
+      },
+      {
+        "footer3Link": "Link &nbsp;link link link link"
+      },
+      {
+        "footer3Link": "Link link link link link link link link link link"
+      },
+      {
+        "footer3Link": "Link link link link"
+      }
+    ]
+  }
+}

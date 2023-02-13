@@ -1,0 +1,36 @@
+.c-mainvisual {
+    margin-bottom: 42px;
+
+    .c-mainvisual__img {
+        height: 360px;
+        width: auto;
+        position: relative;
+    }
+
+    .c-mainvisual__category {
+        position: absolute;
+        margin-left: 40px;
+        margin-top: -140px;
+        max-width: 410px;
+    }
+
+    .c-mainvisual__title {
+        height: 35px;
+        width: 128px;
+        background-color: #ffdfdf;
+        color: #222;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 1px;
+    }
+
+    .c-mainvisual__des {
+        margin-top: 12px;
+        color: #222;
+        font-size: 2rem;
+        transform: translate(0, 3px);
+        line-height: 1.43;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,125 @@
+<%- include('_layouts/layout', { title: 'Home page' }); -%>
+
+  <!-- @meta -->
+  <meta name="description" content="Home page">
+  <!-- @@meta -->
+
+  <!-- @content -->
+  <main class="p-home">
+    <div class="c-breadcrumb l-container">
+      <a class="c-breadcrumb__link u-lastbreadcrumb" href="./index.html">Home</a>
+    </div>
+
+    <section class="c-mainvisual l-container">
+      <img class="c-mainvisual__img" src="./assets/img/image_category.png" alt="Title title title title title title title title
+      title title title title title" />
+      <div class="c-mainvisual__category">
+        <p class="c-mainvisual__title">Category 1</p>
+        <h1 class="c-mainvisual__des">
+          Title title title &nbsp;title &nbsp;title &nbsp;title &nbsp;title title
+          &nbsp;title title &nbsp;title &nbsp;title &nbsp;title
+        </h1>
+      </div>
+    </section>
+
+    <section class="c-news l-container">
+      <h2 class="c-news__title c-title1">News</h2>
+
+      <div class="c-box">
+        <% if (typeof news !='undefined' ) { %>
+          <% news.main && news.main.forEach(item=> { %>
+            <div class="c-box__item">
+              <div class="c-box__img">
+                <img class="c-box__img--content" src="./assets/img/newsImage.png" alt="<%= item.newName %>">
+                <span class="c-box__cat <%= item.color %>">
+                  <%= item.newCaterogy %>
+                </span>
+              </div>
+
+              <div class="c-box__content">
+                <h3 class="c-box__title">
+                  <%= item.newName %>
+                </h3>
+                <p class="c-box__des">
+                  <%= item.newDes %>
+                </p>
+                <a href="#" class="c-box__btn">
+                  <%= item.newBtnName %>
+                </a>
+              </div>
+            </div>
+            <% }) %>
+              <% } %>
+      </div>
+
+      <a href="#">
+        <span class="c-btn1 c-news__link">View More</span>
+      </a>
+    </section>
+
+    <section class="c-features">
+      <div class="l-container">
+        <h2 class="c-features__title c-title1">Feature</h2>
+
+        <div class="c-box c-box--3">
+          <% if (typeof features !='undefined' ) { %>
+            <% features.main && features.main.forEach(item=> { %>
+              <a href="#" class="c-box__item">
+                <div class="c-box__img">
+                  <img class="c-box__img--content" src="./assets/img/featureimage.png" alt="<%= item.featureDes %>">
+                  <span class="c-box__cat <%= item.color %>">
+                    <%= item.featureName %>
+                  </span>
+                </div>
+                <div class="c-box__content">
+                  <h3 class="c-box__des">
+                    <%= item.featureDes %>
+                  </h3>
+                </div>
+              </a>
+              <% }) %>
+                <% } %>
+        </div>
+
+        <a href="#">
+          <span class="c-btn1 c-btn__features">View More</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="c-blog l-container">
+      <h2 class="c-blog__title c-title1">Blog</h2>
+
+      <div class="c-box c-box--2">
+        <% if (typeof blog !='undefined' ) { %>
+          <% blog.main && blog.main.forEach(item=> { %>
+            <a href="#" class="c-box__item">
+              <div class="c-box__img">
+                <img class="c-box__img--content" src="./assets/img/blogimage.png" alt="<%= item.blogDes %>" />
+                <span class="c-box__cat <%= item.color %>">
+                  <%= item.blogName %>
+                </span>
+              </div>
+
+              <div class="c-box__content">
+                <p class="c-box__des">
+                  <%= item.blogDes %>
+                </p>
+              </div>
+            </a>
+            <% }) %>
+              <% } %>
+      </div>
+
+      <a href="#">
+        <span class="c-btn1 c-btn__blog">View More</span>
+      </a>
+    </section>
+  </main>
+
+  <div class="c-breadcrumb__bottom">
+    <div class="l-container">
+      <a class="c-breadcrumb__link u-lastbreadcrumb" href="./index.html">Home</a>
+    </div>
+  </div>
+  <!-- @@content -->

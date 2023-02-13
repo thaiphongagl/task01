@@ -1,0 +1,36 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 19px;
+    border-bottom: 1px solid #a8a8a8;
+}
+
+/* Main menu
+------------------------------------------------------------*/
+.c-gnav {
+    li {
+        display: inline-block;
+        margin-left: 28px;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #000;
+    }
+
+    li:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+
+    li .is-active {
+        font-weight: 700;
+        cursor: default;
+        pointer-events: none;
+    }
+
+    a {
+        font-size: 1.4rem;
+    }
+}

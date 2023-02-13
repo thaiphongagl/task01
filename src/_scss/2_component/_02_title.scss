@@ -1,0 +1,45 @@
+/*------------------------------------------------------------
+title
+------------------------------------------------------------*/
+
+
+/*
+------------------------------------------------------------*/
+.c-title1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-top: 1px;
+    padding-left: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.c-anchor {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    transform: translate(-2px, -1px);
+    border-bottom: 2px solid #ccc;
+}
+
+.c-title2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+
+    &::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 2px;
+    position: absolute;
+    left: -1px;
+    top: -3px;
+    font-size: 2rem;
+    }
+}
+
+

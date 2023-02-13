@@ -1,0 +1,20 @@
+/*------------------------------------------------------------
+btn
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 300px;
+    height: 65px;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 3px;
+}

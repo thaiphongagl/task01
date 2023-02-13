@@ -1,0 +1,40 @@
+.c-anchor1 {
+  margin-top: 64px;
+
+  .c-anchor1__title {
+    padding-bottom: 8px;
+    transform: translate(-1px, 0px);
+  }
+
+  .c-anchor1__text {
+    margin-bottom: 14px;
+  }
+
+  .c-anchor1__text--link {
+    color: #1f53fa;
+
+    &::after {
+      background-color: #1f53fa;
+    }
+  }
+
+  .c-anchor1__items {
+    margin-bottom: 0;
+  }
+
+  .c-anchor1__item {
+    margin-bottom: 44px;
+  }
+
+  .c-anchor1__img--content {
+    margin-bottom: 21px;
+  }
+
+  .c-anchor1__cat {
+    padding-bottom: 5px;
+  }
+
+  .c-anchor1__content {
+    margin-top: 20px;
+  }
+}

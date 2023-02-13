@@ -1,0 +1,161 @@
+<%- include('_layouts/layout', { title: 'Link 1 page' }); -%>
+
+<!-- @meta -->
+<meta name="description" content="Link 1 page">
+<!-- @@meta -->
+
+<!-- @content -->
+<main class="p-link1 l-container">
+  <div class="c-breadcrumb l-container c-breadcrumb1">
+    <a class="c-breadcrumb__link c-breadcrumb__home" href="./index.html">Home</a>
+    <a class="c-breadcrumb__page1 u-lastbreadcrumb" href="./link1.html">Link1</a>
+  </div>
+
+  <div class="c-breadcrumb__anchor">
+    <% if (typeof anchors !='undefined' ) { %> <% anchors.main &&
+    anchors.main.forEach(anchor=> { %>
+    <a href="<%= anchor.anchorLink %>" class="c-breadcrumb__item">
+      <span class="c-breadcrumb__name"> <%= anchor.anchorName %> </span>
+    </a>
+    <% }) %> <% } %>
+  </div>
+
+  <section class="c-anchor1" id="anchor-link1">
+    <h2 class="c-anchor1__title c-anchor">title anchor link 1</h2>
+
+    <h1 class="c-anchor1__text c-text">
+      Dummy
+      <a class="c-anchor1__text--link c-text__link" href="#"
+        >dummy dummy dummy</a>
+      dummy dummy dummy
+    </h1>
+
+    <div class="c-box c-box--3 c-anchor1__items">
+      <% if (typeof features !='undefined' ) { %> <% features.main &&
+      features.main.forEach(item=> { %>
+      <a href="#" class="c-box__item c-anchor1__item">
+        <div class="c-box__img">
+          <img
+            class="c-box__img--content c-anchor1__img--content"
+            src="./assets/img/featureimage.png"
+            alt="<%= item.featureDes %>"
+          />
+          <span class="c-box__cat c-anchor1__cat <%= item.color %>">
+            <%= item.featureName %>
+          </span>
+        </div>
+        <div class="c-box__content c-anchor1__content">
+          <h3 class="c-box__des"><%= item.featureDes %></h3>
+        </div>
+      </a>
+      <% }) %> <% } %>
+    </div>
+  </section>
+
+  <section class="c-anchor2" id="anchor-link2">
+    <h2 class="c-anchor2__title c-anchor">title anchor link 2</h2>
+
+    <div class="c-box c-box--4">
+      <% if (typeof titleAnchorLink2 !='undefined' ) { %> <%
+      titleAnchorLink2.main && titleAnchorLink2.main.forEach(item=> { %>
+      <a href="#" class="c-box__item">
+        <div class="c-box__img">
+          <img
+            class="c-box__img--content c-anchor2__img--content"
+            src="./assets/img/anchor2image.png"
+            alt="<%= item.anchorDes %>"
+          />
+          <span class="c-box__cat <%= item.color %>">
+            <%= item.anchorName %>
+          </span>
+        </div>
+        <div class="c-box__content">
+          <h3 class="c-box__des"><%= item.anchorDes %></h3>
+        </div>
+      </a>
+      <% }) %> <% } %>
+    </div>
+  </section>
+
+  <section class="c-anchor3" id="anchor-link3">
+    <h2 class="c-anchor3__title c-anchor">title anchor link 3</h2>
+
+    <h3 class="c-anchor3__caption1 c-caption">Caption table 1</h3>
+
+    <p class="c-anchor3__text1 c-text">
+      Dummy dummy
+      <a class="c-anchor3__text1--link c-text__link" href="#"
+        >dummy dummy dummy dummy</a>
+      dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+      dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy dummy
+    </p>
+
+    <table class="c-anchor3__table1 c-table">
+      <tr class="c-anchor3__tr">
+        <th class="c-anchor3__th"></th>
+        <th class="c-anchor3__th">title</th>
+        <th class="c-anchor3__th">title</th>
+        <th class="c-anchor3__th">title</th>
+      </tr>
+      <tr class="c-anchor3__tr">
+        <th class="c-anchor3__th">title</th>
+        <td class="c-anchor3__td">text text text</td>
+        <td class="c-anchor3__td">text text text</td>
+        <td class="c-anchor3__td">text text text</td>
+      </tr>
+      <tr class="c-anchor3__tr">
+        <th class="c-anchor3__th">title</th>
+        <td class="c-anchor3__td">text text text</td>
+        <td class="c-anchor3__td">text text text</td>
+        <td class="c-anchor3__td">text text text</td>
+      </tr>
+      <tr class="c-anchor3__tr">
+        <th class="c-anchor3__th">title</th>
+        <td class="c-anchor3__td">text text text</td>
+        <td class="c-anchor3__td">text text text</td>
+        <td class="c-anchor3__td">text text text</td>
+      </tr>
+    </table>
+
+    <h3 class="c-anchor3__caption2 c-caption">Caption table 2</h3>
+
+    <p class="c-anchor3__text2 c-text">
+      Dummy dummy dummy dummy dummy dummy
+      <a class="c-anchor3__text2--link c-text__link" href="#">dummy dummy</a>
+      dummy dummy
+    </p>
+
+    <table class="c-anchor3__table2 c-table">
+      <tr class="c-anchor3__tr c-anchor3__tr2">
+        <th class="c-anchor3__th c-anchor3__th2">title</th>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+      </tr>
+      <tr class="c-anchor3__tr c-anchor3__tr2">
+        <th class="c-anchor3__th c-anchor3__th2">title</th>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+      </tr>
+      <tr class="c-anchor3__tr c-anchor3__tr2">
+        <th class="c-anchor3__th c-anchor3__th2">title</th>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+        <td class="c-anchor3__td c-anchor3__td2">text text text</td>
+      </tr>
+    </table>
+  </section>
+</main>
+
+<div class="c-breadcrumb2">
+  <div class="l-container">
+    <div class="c-breadcrumb c-breadcrumb__bot">
+      <a class="c-breadcrumb__link c-breadcrumb__home" href="./index.html"
+        >Home</a>
+      <a class="c-breadcrumb__page1 u-lastbreadcrumb" href="./link1.html"
+        >Link1</a>
+    </div>
+  </div>
+</div>
+<!-- @@content -->
