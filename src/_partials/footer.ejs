@@ -1,5 +1,65 @@
 <footer class="c-footer">
-  <div class="l-container">
+  <section class="c-footer__top">
+    <div class="l-container">
+      <div class="c-footer__boxs">
+        <div class="c-footer__box">
+          <h2 class="c-footer__name1">
+            Box link 1
+          </h2>
+
+          <ul class="c-footer__list1">
+            <% if (typeof footer1 !='undefined' ) { %>
+              <% footer1.main && footer1.main.forEach(item=> { %>
+                <li class="c-footer__item1">
+                  <a href="#" class="c-footer__item1--link">
+                    <%- item.footer1Link %>
+                  </a>
+                </li>
+                <% }) %>
+                  <% } %>
+          </ul>
+        </div>
+
+        <div class="c-footer__box">
+          <h2 class="c-footer__name">
+            Box link 1
+          </h2>
+
+          <ul class="c-footer__list2">
+            <% if (typeof footer2 !='undefined' ) { %>
+              <% footer2.main && footer2.main.forEach(item=> { %>
+                <li class="c-footer__item2">
+                  <a href="#" class="c-footer__item2--link">
+                    <%- item.footer2Link %>
+                  </a>
+                </li>
+                <% }) %>
+                  <% } %>
+          </ul>
+        </div>
+
+        <div class="c-footer__box">
+          <h2 class="c-footer__name">
+            Box link 1
+          </h2>
+
+          <ul class="c-footer__list3">
+            <% if (typeof footer3 !='undefined' ) { %>
+              <% footer3.main && footer3.main.forEach(item=> { %>
+                <li class="c-footer__item3">
+                  <a href="#" class="c-footer__item3--link">
+                    <%- item.footer3Link %>
+                  </a>
+                </li>
+                <% }) %>
+                  <% } %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="c-footer__bot">
     © Copyright Allgrow Labo 2018
   </div>
 </footer>
